@@ -1,0 +1,12 @@
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\bin\Debug\ProjectProtectedPapyrus.exe.config
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\bin\Debug\ProjectProtectedPapyrus.exe
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\bin\Debug\ProjectProtectedPapyrus.pdb
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\bin\Debug\Siticone.UI.dll
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.csproj.AssemblyReference.cache
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.Form1.resources
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.Properties.Resources.resources
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.csproj.GenerateResource.cache
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.csproj.CoreCompileInputs.cache
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.csproj.CopyComplete
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.exe
+C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.pdb
