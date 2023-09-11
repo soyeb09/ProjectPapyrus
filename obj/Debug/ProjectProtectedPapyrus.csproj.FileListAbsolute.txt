@@ -10,3 +10,16 @@ C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtec
 C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.csproj.CopyComplete
 C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.exe
 C:\Users\Soyeb\Documents\Project\ProjectProtectedPapyrus\obj\Debug\ProjectProtectedPapyrus.pdb
+F:\Visual Projects\ProjectPapyrus-main\bin\Debug\ProjectProtectedPapyrus.exe.config
+F:\Visual Projects\ProjectPapyrus-main\bin\Debug\ProjectProtectedPapyrus.exe
+F:\Visual Projects\ProjectPapyrus-main\bin\Debug\ProjectProtectedPapyrus.pdb
+F:\Visual Projects\ProjectPapyrus-main\bin\Debug\Siticone.UI.dll
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.AssemblyReference.cache
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Form1.resources
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Properties.Resources.resources
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.GenerateResource.cache
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.CoreCompileInputs.cache
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.CopyComplete
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.exe
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.pdb
+F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Dashboard.resources
