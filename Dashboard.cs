@@ -54,6 +54,38 @@ namespace ProjectProtectedPapyrus
             Application.Exit();
         }
 
+        bool leapYear(decimal  year)
+        {
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+            {
+                return true;
+            }
+            else
+            {
+               return false;
+            }
+        }
+
+        private void siticoneRoundedNumericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            if (sM.Value == 1 || sM.Value == 3 || sM.Value == 5 || sM.Value == 7 || sM.Value == 8 || sM.Value == 10 || sM.Value == 12)
+            {
+                sD.Maximum = 31;
+            }
+            else if (leapYear(sY.Value) == true && sM.Value ==2)
+            {
+                sD.Maximum = 29;
+            }
+            else if (leapYear(sY.Value) == false && sM.Value ==2)
+            {
+                sD.Maximum = 28;
+            }
+            else
+            {
+                sD.Maximum = 30;
+            }
+        }
+
         private void Dashboard_MouseMove(object sender, MouseEventArgs e)
         {
             if (mov == 1)
