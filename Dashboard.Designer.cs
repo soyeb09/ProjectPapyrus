@@ -93,6 +93,7 @@
             this.sD.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.sD.Location = new System.Drawing.Point(205, 40);
+            this.sD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.sD.Maximum = new decimal(new int[] {
             31,
             0,
@@ -129,6 +130,7 @@
             this.sM.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sM.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.sM.Location = new System.Drawing.Point(271, 40);
+            this.sM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.sM.Maximum = new decimal(new int[] {
             12,
             0,
@@ -164,6 +166,7 @@
             this.sY.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.sY.Location = new System.Drawing.Point(338, 40);
+            this.sY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.sY.Maximum = new decimal(new int[] {
             3000,
             0,
@@ -231,6 +234,7 @@
             this.Controls.Add(this.siticoneMaterialRadioButton1);
             this.Controls.Add(this.siticoneLabel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
