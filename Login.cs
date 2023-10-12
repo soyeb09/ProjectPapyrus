@@ -28,7 +28,7 @@ namespace ProjectProtectedPapyrus
             if(siticoneRoundedTextBox1.Text == "Papyrus")
             {
                 this.Hide();
-                var Dashboard = new Dashboard();
+                var Dashboard = new Menu();
                 Dashboard.Show();
             }
             else
