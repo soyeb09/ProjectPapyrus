@@ -23,3 +23,17 @@ F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.
 F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.exe
 F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.pdb
 F:\Visual Projects\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Dashboard.resources
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\bin\Debug\ProjectProtectedPapyrus.exe.config
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\bin\Debug\ProjectProtectedPapyrus.exe
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\bin\Debug\ProjectProtectedPapyrus.pdb
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\bin\Debug\Siticone.UI.dll
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.AssemblyReference.cache
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Dashboard.resources
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Login.resources
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Menu.resources
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.Properties.Resources.resources
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.GenerateResource.cache
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.CoreCompileInputs.cache
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.csproj.CopyComplete
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.exe
+C:\Users\Peekaboo\Downloads\Project\ProjectPapyrus-main (1)\ProjectPapyrus-main\obj\Debug\ProjectProtectedPapyrus.pdb

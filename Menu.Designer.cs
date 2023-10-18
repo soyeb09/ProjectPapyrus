@@ -33,7 +33,6 @@
             this.siticoneLabel1 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticoneRoundedButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneRoundedButton2 = new Siticone.UI.WinForms.SiticoneRoundedButton();
-            this.editButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneRoundedButton4 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.saveButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneLabel2 = new Siticone.UI.WinForms.SiticoneLabel();
@@ -41,7 +40,7 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.siticoneRoundedTextBox1 = new Siticone.UI.WinForms.SiticoneRoundedTextBox();
             this.copyButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
-            this.siticoneRoundedTextBox2 = new Siticone.UI.WinForms.SiticoneRoundedTextBox();
+            this.decryptKey1 = new Siticone.UI.WinForms.SiticoneRoundedTextBox();
             this.checkButton1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.wrong1 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.siticoneRoundedButton3 = new Siticone.UI.WinForms.SiticoneRoundedButton();
@@ -49,12 +48,13 @@
             this.siticoneRoundedButton5 = new Siticone.UI.WinForms.SiticoneRoundedButton();
             this.date2 = new Siticone.UI.WinForms.SiticoneLabel();
             this.user = new Siticone.UI.WinForms.SiticoneLabel();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // siticoneMaterialRadioButton1
             // 
             this.siticoneMaterialRadioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneMaterialRadioButton1.BorderColor = System.Drawing.Color.White;
+            this.siticoneMaterialRadioButton1.BorderColor = System.Drawing.Color.Yellow;
             this.siticoneMaterialRadioButton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
             this.siticoneMaterialRadioButton1.Checked = false;
             this.siticoneMaterialRadioButton1.CheckedBorderColor = System.Drawing.Color.White;
@@ -65,7 +65,7 @@
             this.siticoneMaterialRadioButton1.HoverBorderColor = System.Drawing.Color.White;
             this.siticoneMaterialRadioButton1.HoverFillColor = System.Drawing.Color.DodgerBlue;
             this.siticoneMaterialRadioButton1.HoverTextColor = System.Drawing.Color.DodgerBlue;
-            this.siticoneMaterialRadioButton1.Location = new System.Drawing.Point(654, 12);
+            this.siticoneMaterialRadioButton1.Location = new System.Drawing.Point(653, 5);
             this.siticoneMaterialRadioButton1.Name = "siticoneMaterialRadioButton1";
             this.siticoneMaterialRadioButton1.ReadOnly = false;
             this.siticoneMaterialRadioButton1.Size = new System.Drawing.Size(23, 20);
@@ -78,9 +78,9 @@
             // 
             this.siticoneLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneLabel1.ForeColor = System.Drawing.Color.White;
+            this.siticoneLabel1.ForeColor = System.Drawing.Color.Yellow;
             this.siticoneLabel1.IsSelectionEnabled = false;
-            this.siticoneLabel1.Location = new System.Drawing.Point(682, 11);
+            this.siticoneLabel1.Location = new System.Drawing.Point(682, 4);
             this.siticoneLabel1.Name = "siticoneLabel1";
             this.siticoneLabel1.Size = new System.Drawing.Size(14, 22);
             this.siticoneLabel1.TabIndex = 6;
@@ -125,25 +125,6 @@
             this.siticoneRoundedButton2.Text = "View";
             this.siticoneRoundedButton2.Click += new System.EventHandler(this.siticoneRoundedButton2_Click);
             // 
-            // editButton1
-            // 
-            this.editButton1.BackColor = System.Drawing.Color.Transparent;
-            this.editButton1.BorderColor = System.Drawing.Color.PapayaWhip;
-            this.editButton1.BorderThickness = 2;
-            this.editButton1.CheckedState.Parent = this.editButton1;
-            this.editButton1.CustomImages.Parent = this.editButton1;
-            this.editButton1.FillColor = System.Drawing.Color.Transparent;
-            this.editButton1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editButton1.ForeColor = System.Drawing.Color.White;
-            this.editButton1.HoveredState.Parent = this.editButton1;
-            this.editButton1.Location = new System.Drawing.Point(113, 528);
-            this.editButton1.Name = "editButton1";
-            this.editButton1.ShadowDecoration.Parent = this.editButton1;
-            this.editButton1.Size = new System.Drawing.Size(85, 25);
-            this.editButton1.TabIndex = 9;
-            this.editButton1.Text = "Edit";
-            this.editButton1.Visible = false;
-            // 
             // siticoneRoundedButton4
             // 
             this.siticoneRoundedButton4.BackColor = System.Drawing.Color.Transparent;
@@ -186,22 +167,22 @@
             // siticoneLabel2
             // 
             this.siticoneLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneLabel2.Font = new System.Drawing.Font("Papyrus", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneLabel2.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel2.ForeColor = System.Drawing.Color.White;
-            this.siticoneLabel2.Location = new System.Drawing.Point(284, 2);
+            this.siticoneLabel2.Location = new System.Drawing.Point(284, 0);
             this.siticoneLabel2.Name = "siticoneLabel2";
-            this.siticoneLabel2.Size = new System.Drawing.Size(187, 35);
+            this.siticoneLabel2.Size = new System.Drawing.Size(180, 30);
             this.siticoneLabel2.TabIndex = 25;
             this.siticoneLabel2.Text = "Protected Papyrus";
             // 
             // siticoneLabel3
             // 
             this.siticoneLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneLabel3.Font = new System.Drawing.Font("Papyrus", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneLabel3.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel3.ForeColor = System.Drawing.Color.White;
             this.siticoneLabel3.Location = new System.Drawing.Point(24, 61);
             this.siticoneLabel3.Name = "siticoneLabel3";
-            this.siticoneLabel3.Size = new System.Drawing.Size(62, 35);
+            this.siticoneLabel3.Size = new System.Drawing.Size(63, 30);
             this.siticoneLabel3.TabIndex = 26;
             this.siticoneLabel3.Text = " Menu ";
             // 
@@ -228,7 +209,7 @@
             this.siticoneRoundedTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.siticoneRoundedTextBox1.DisabledState.Parent = this.siticoneRoundedTextBox1;
             this.siticoneRoundedTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneRoundedTextBox1.FillColor = System.Drawing.Color.Gray;
+            this.siticoneRoundedTextBox1.FillColor = System.Drawing.Color.Black;
             this.siticoneRoundedTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.siticoneRoundedTextBox1.FocusedState.Parent = this.siticoneRoundedTextBox1;
             this.siticoneRoundedTextBox1.ForeColor = System.Drawing.Color.Lime;
@@ -267,36 +248,37 @@
             this.copyButton1.Visible = false;
             this.copyButton1.Click += new System.EventHandler(this.copyButton1_Click);
             // 
-            // siticoneRoundedTextBox2
+            // decryptKey1
             // 
-            this.siticoneRoundedTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneRoundedTextBox2.BorderColor = System.Drawing.Color.PapayaWhip;
-            this.siticoneRoundedTextBox2.BorderThickness = 2;
-            this.siticoneRoundedTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneRoundedTextBox2.DefaultText = "Decryption Key";
-            this.siticoneRoundedTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneRoundedTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneRoundedTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneRoundedTextBox2.DisabledState.Parent = this.siticoneRoundedTextBox2;
-            this.siticoneRoundedTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneRoundedTextBox2.FillColor = System.Drawing.Color.Gray;
-            this.siticoneRoundedTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedTextBox2.FocusedState.Parent = this.siticoneRoundedTextBox2;
-            this.siticoneRoundedTextBox2.ForeColor = System.Drawing.Color.Lime;
-            this.siticoneRoundedTextBox2.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedTextBox2.HoveredState.Parent = this.siticoneRoundedTextBox2;
-            this.siticoneRoundedTextBox2.Location = new System.Drawing.Point(196, 97);
-            this.siticoneRoundedTextBox2.Margin = new System.Windows.Forms.Padding(6);
-            this.siticoneRoundedTextBox2.Name = "siticoneRoundedTextBox2";
-            this.siticoneRoundedTextBox2.PasswordChar = '\0';
-            this.siticoneRoundedTextBox2.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.siticoneRoundedTextBox2.PlaceholderText = "";
-            this.siticoneRoundedTextBox2.SelectedText = "";
-            this.siticoneRoundedTextBox2.ShadowDecoration.Parent = this.siticoneRoundedTextBox2;
-            this.siticoneRoundedTextBox2.Size = new System.Drawing.Size(395, 25);
-            this.siticoneRoundedTextBox2.TabIndex = 30;
-            this.siticoneRoundedTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.siticoneRoundedTextBox2.Visible = false;
+            this.decryptKey1.BackColor = System.Drawing.Color.Transparent;
+            this.decryptKey1.BorderColor = System.Drawing.Color.PapayaWhip;
+            this.decryptKey1.BorderThickness = 2;
+            this.decryptKey1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.decryptKey1.DefaultText = "Decryption Key";
+            this.decryptKey1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.decryptKey1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.decryptKey1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.decryptKey1.DisabledState.Parent = this.decryptKey1;
+            this.decryptKey1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.decryptKey1.FillColor = System.Drawing.Color.Transparent;
+            this.decryptKey1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.decryptKey1.FocusedState.Parent = this.decryptKey1;
+            this.decryptKey1.ForeColor = System.Drawing.Color.LightGreen;
+            this.decryptKey1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.decryptKey1.HoveredState.Parent = this.decryptKey1;
+            this.decryptKey1.Location = new System.Drawing.Point(196, 97);
+            this.decryptKey1.Margin = new System.Windows.Forms.Padding(6);
+            this.decryptKey1.Name = "decryptKey1";
+            this.decryptKey1.PasswordChar = '\0';
+            this.decryptKey1.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.decryptKey1.PlaceholderText = "";
+            this.decryptKey1.SelectedText = "";
+            this.decryptKey1.ShadowDecoration.Parent = this.decryptKey1;
+            this.decryptKey1.Size = new System.Drawing.Size(395, 25);
+            this.decryptKey1.TabIndex = 30;
+            this.decryptKey1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.decryptKey1.UseSystemPasswordChar = true;
+            this.decryptKey1.Visible = false;
             // 
             // checkButton1
             // 
@@ -311,6 +293,7 @@
             this.checkButton1.HoveredState.Parent = this.checkButton1;
             this.checkButton1.Location = new System.Drawing.Point(351, 128);
             this.checkButton1.Name = "checkButton1";
+            this.checkButton1.PressedColor = System.Drawing.Color.Transparent;
             this.checkButton1.ShadowDecoration.Parent = this.checkButton1;
             this.checkButton1.Size = new System.Drawing.Size(85, 25);
             this.checkButton1.TabIndex = 31;
@@ -325,7 +308,7 @@
             this.wrong1.BorderThickness = 2;
             this.wrong1.CheckedState.Parent = this.wrong1;
             this.wrong1.CustomImages.Parent = this.wrong1;
-            this.wrong1.FillColor = System.Drawing.Color.Transparent;
+            this.wrong1.FillColor = System.Drawing.Color.Red;
             this.wrong1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.wrong1.ForeColor = System.Drawing.Color.White;
             this.wrong1.HoveredState.Parent = this.wrong1;
@@ -348,7 +331,7 @@
             this.siticoneRoundedButton3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneRoundedButton3.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton3.HoveredState.Parent = this.siticoneRoundedButton3;
-            this.siticoneRoundedButton3.Location = new System.Drawing.Point(12, 190);
+            this.siticoneRoundedButton3.Location = new System.Drawing.Point(12, 221);
             this.siticoneRoundedButton3.Name = "siticoneRoundedButton3";
             this.siticoneRoundedButton3.ShadowDecoration.Parent = this.siticoneRoundedButton3;
             this.siticoneRoundedButton3.Size = new System.Drawing.Size(85, 25);
@@ -358,7 +341,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(283, 290);
+            this.monthCalendar1.Location = new System.Drawing.Point(284, 331);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 34;
             this.monthCalendar1.Visible = false;
@@ -375,42 +358,55 @@
             this.siticoneRoundedButton5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneRoundedButton5.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedButton5.HoveredState.Parent = this.siticoneRoundedButton5;
-            this.siticoneRoundedButton5.Location = new System.Drawing.Point(12, 221);
+            this.siticoneRoundedButton5.Location = new System.Drawing.Point(12, 190);
             this.siticoneRoundedButton5.Name = "siticoneRoundedButton5";
             this.siticoneRoundedButton5.ShadowDecoration.Parent = this.siticoneRoundedButton5;
             this.siticoneRoundedButton5.Size = new System.Drawing.Size(85, 25);
             this.siticoneRoundedButton5.TabIndex = 35;
-            this.siticoneRoundedButton5.Text = "Extra";
+            this.siticoneRoundedButton5.Text = "Calendar";
             this.siticoneRoundedButton5.Click += new System.EventHandler(this.siticoneRoundedButton5_Click_1);
             // 
             // date2
             // 
-            this.date2.BackColor = System.Drawing.Color.Gray;
-            this.date2.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date2.ForeColor = System.Drawing.Color.Yellow;
-            this.date2.Location = new System.Drawing.Point(405, 40);
+            this.date2.BackColor = System.Drawing.Color.Transparent;
+            this.date2.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date2.ForeColor = System.Drawing.Color.Aqua;
+            this.date2.Location = new System.Drawing.Point(518, 31);
             this.date2.Name = "date2";
-            this.date2.Size = new System.Drawing.Size(51, 15);
+            this.date2.Size = new System.Drawing.Size(48, 24);
             this.date2.TabIndex = 37;
             this.date2.Text = "Date :";
             // 
             // user
             // 
-            this.user.BackColor = System.Drawing.Color.Gray;
-            this.user.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user.ForeColor = System.Drawing.Color.Yellow;
-            this.user.Location = new System.Drawing.Point(113, 40);
+            this.user.BackColor = System.Drawing.Color.Transparent;
+            this.user.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user.ForeColor = System.Drawing.Color.Aqua;
+            this.user.Location = new System.Drawing.Point(113, 31);
             this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(51, 15);
+            this.user.Size = new System.Drawing.Size(57, 24);
             this.user.TabIndex = 38;
             this.user.Text = "Name :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(300, 571);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(153, 13);
+            this.label1.TabIndex = 39;
+            this.label1.Text = "Authorized by Team Peekaboo";
+            this.label1.Visible = false;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(710, 585);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(703, 585);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.user);
             this.Controls.Add(this.date2);
             this.Controls.Add(this.siticoneRoundedButton5);
@@ -418,7 +414,7 @@
             this.Controls.Add(this.siticoneRoundedButton3);
             this.Controls.Add(this.wrong1);
             this.Controls.Add(this.checkButton1);
-            this.Controls.Add(this.siticoneRoundedTextBox2);
+            this.Controls.Add(this.decryptKey1);
             this.Controls.Add(this.copyButton1);
             this.Controls.Add(this.siticoneRoundedTextBox1);
             this.Controls.Add(this.richTextBox2);
@@ -426,7 +422,6 @@
             this.Controls.Add(this.siticoneLabel2);
             this.Controls.Add(this.saveButton1);
             this.Controls.Add(this.siticoneRoundedButton4);
-            this.Controls.Add(this.editButton1);
             this.Controls.Add(this.siticoneRoundedButton2);
             this.Controls.Add(this.siticoneMaterialRadioButton1);
             this.Controls.Add(this.siticoneLabel1);
@@ -450,7 +445,6 @@
         private Siticone.UI.WinForms.SiticoneLabel siticoneLabel1;
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton1;
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton2;
-        private Siticone.UI.WinForms.SiticoneRoundedButton editButton1;
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton4;
         private Siticone.UI.WinForms.SiticoneRoundedButton saveButton1;
         private Siticone.UI.WinForms.SiticoneLabel siticoneLabel2;
@@ -458,7 +452,7 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private Siticone.UI.WinForms.SiticoneRoundedTextBox siticoneRoundedTextBox1;
         private Siticone.UI.WinForms.SiticoneRoundedButton copyButton1;
-        private Siticone.UI.WinForms.SiticoneRoundedTextBox siticoneRoundedTextBox2;
+        private Siticone.UI.WinForms.SiticoneRoundedTextBox decryptKey1;
         private Siticone.UI.WinForms.SiticoneRoundedButton checkButton1;
         private Siticone.UI.WinForms.SiticoneRoundedButton wrong1;
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton3;
@@ -466,5 +460,6 @@
         private Siticone.UI.WinForms.SiticoneRoundedButton siticoneRoundedButton5;
         private Siticone.UI.WinForms.SiticoneLabel date2;
         private Siticone.UI.WinForms.SiticoneLabel user;
+        private System.Windows.Forms.Label label1;
     }
 }

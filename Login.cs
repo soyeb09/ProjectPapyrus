@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using ProjectProtectedPapyrus.Properties;
 
 namespace ProjectProtectedPapyrus
 {
@@ -25,7 +26,7 @@ namespace ProjectProtectedPapyrus
 
         private void siticoneRoundedButton1_Click(object sender, EventArgs e)
         {
-            if(siticoneRoundedTextBox1.Text == "Papyrus")
+            if(text1.Text == "Papyrus")
             {
                 this.Hide();
                 var Dashboard = new Menu();
@@ -47,6 +48,7 @@ namespace ProjectProtectedPapyrus
 
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+          
 
         }
 

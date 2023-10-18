@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Threading;
 using Siticone.UI.WinForms;
+using System.Data.SqlClient;
 
 namespace ProjectProtectedPapyrus
 {
@@ -64,11 +65,15 @@ namespace ProjectProtectedPapyrus
 
         private void siticoneRoundedButton1_Click(object sender, EventArgs e)
         {
+            wrong1.Visible = false;
+            checkButton1.Visible = false;
+            decryptKey1.Visible = false;
             richTextBox2.Visible = true;
             saveButton1.Visible = true;
             saveButton1.Text = "Save";
             copyButton1.Text = "Copy";
             monthCalendar1.Visible = false;
+            richTextBox2.Text = string.Empty;
         }
 
         private void saveButton1_Click(object sender, EventArgs e)
@@ -78,17 +83,44 @@ namespace ProjectProtectedPapyrus
             siticoneRoundedTextBox1.Text = "1sdahsdgasdasgdasd09";
             copyButton1.Visible = true;
             copyButton1.Text = "Copy";
+
+            string connectionString = ("Server=localhost;Database=ProjectProtectedPapyrus;Integrated Security=True;");
+            string query = "INSERT INTO Notes (NoteContent, CreatedDate) VALUES (@NoteContent, GETDATE())";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@NoteContent", richTextBox2);
+
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("Note has been saved successfully.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Save operation failed.");
+                    }
+                }
+
+                connection.Close();
+            }
+
         }
 
         private void siticoneRoundedButton2_Click(object sender, EventArgs e)
         {
+            richTextBox2.Text = string.Empty;
             richTextBox2.Visible = false;
             siticoneRoundedTextBox1.Visible = false;
             saveButton1.Visible = false;
             copyButton1.Visible = false;
-            siticoneRoundedTextBox2.Visible = true;
+            decryptKey1.Visible = true;
             checkButton1.Visible = true;
             monthCalendar1.Visible = false;
+
         }
 
         private void copyButton1_Click(object sender, EventArgs e)
@@ -99,22 +131,21 @@ namespace ProjectProtectedPapyrus
             saveButton1.Visible = false;
             siticoneRoundedTextBox1.Visible = false;
             copyButton1.Visible = false;
-            siticoneRoundedTextBox2.Visible = false;
+            decryptKey1.Visible = false;
             checkButton1.Visible = false;
         }
 
         private void siticoneRoundedButton5_Click(object sender, EventArgs e)
         {
-            if(siticoneRoundedTextBox2.Text == "1sdahsdgasdasgdasd09")
+            if(decryptKey1.Text == "1sdahsdgasdasgdasd09")
             {
-                siticoneRoundedTextBox2.Visible = false;
+                decryptKey1.Visible = false;
                 checkButton1.Visible = false;
                 richTextBox2.Visible = true;
                 saveButton1.Visible = true;
                 saveButton1.Text = "Save";
                 copyButton1.Text = "Copy";
                 wrong1.Visible = false;
-                editButton1.Visible = true;
             }
             else
             {
@@ -124,11 +155,12 @@ namespace ProjectProtectedPapyrus
 
         private void siticoneRoundedButton5_Click_1(object sender, EventArgs e)
         {
+            richTextBox2.Text = string.Empty;
             richTextBox2.Visible = false;
             siticoneRoundedTextBox1.Visible = false;
             saveButton1.Visible = false;
             copyButton1.Visible = false;
-            siticoneRoundedTextBox2.Visible = false;
+            decryptKey1.Visible = false;
             checkButton1.Visible = false;
             monthCalendar1.Visible = true;
 
@@ -141,12 +173,25 @@ namespace ProjectProtectedPapyrus
 
         private void siticoneRoundedButton4_Click(object sender, EventArgs e)
         {
+            richTextBox2.Text = string.Empty;
             monthCalendar1.Visible = false;
+            wrong1.Visible = false;
+            checkButton1.Visible = false;
+            decryptKey1.Visible = false;
+            richTextBox2.Visible = false;
+            saveButton1.Visible = false;
         }
 
         private void siticoneRoundedButton3_Click(object sender, EventArgs e)
         {
             monthCalendar1.Visible = false;
+            wrong1.Visible = false;
+            checkButton1.Visible = false;
+            decryptKey1.Visible = false;
+            richTextBox2.Visible = false;
+            saveButton1.Visible = false;
+            richTextBox2.Text = "Project Manual";
+            label1.Visible = true;
         }
 
         private void Menu_MouseMove(object sender, MouseEventArgs e)
