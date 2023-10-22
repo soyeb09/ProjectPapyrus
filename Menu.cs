@@ -91,7 +91,7 @@ namespace ProjectProtectedPapyrus
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@NoteContent", richTextBox2);
+                    command.Parameters.AddWithValue("@NoteContent", richTextBox2.Text);
 
                     int rowsAffected = command.ExecuteNonQuery();
 
@@ -121,7 +121,13 @@ namespace ProjectProtectedPapyrus
             checkButton1.Visible = true;
             monthCalendar1.Visible = false;
 
+            var new_view = new nview(); //for transition
+
+            new_view.Show();
+
         }
+
+
 
         private void copyButton1_Click(object sender, EventArgs e)
         {
